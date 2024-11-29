@@ -1,0 +1,106 @@
+:root{
+    --body-color: #a2a6a8;
+    --editorial: #47ADF1;
+    --grey: #93999d;
+    --q1-goals: #9C72E4;
+    --recruiting: #64C0A9;
+    --mobile: #F29E33;
+    --website: #D863A1;
+    --sales:#B0C926; 
+
+    /* --checkmark:&#10003 */
+    /* --xmark:&#x2718 */
+ }
+ html {
+    line-height: 160%;
+    font-family: sans-serif;
+ }
+ body {
+    background-color: var(--body-color);
+ }
+header h1{
+    display: inline-block;
+}
+header img, header h1{
+    vertical-align: middle;
+}
+header {
+    background-color: #fff;
+    padding: 20px
+}
+section {
+    background-color: #fff;
+}
+.section-up {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 10px 0px 10px 50px;
+    width: 80%;
+    margin: auto;
+    border-bottom:3px solid var(--body-color) ;
+}
+.section-down {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px 0px 10px 50px;
+    width: 80%;
+    margin: auto;
+}
+.section-up span {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.button {
+    border-radius: 30px;
+    border: 1px solid;
+    color: #fff;
+    padding: 10px ;
+}
+h2 {
+    display: inline-block;
+}
+.section-down div {
+    padding-top: 20px;
+}
+#lightblue{
+    background-color: var(--editorial);
+}
+#no-color{
+    color: var(--grey);
+    border-color: var(--grey)
+}
+#lightblue-2{
+    background-color: var(--editorial);
+}
+#lightblue-3{
+    background-color: var(--editorial);
+}
+#purple {
+    background-color: var(--q1-goals);
+}
+#lightgreen {
+    background-color: var(--recruiting);
+}
+#orange{
+    background-color: var(--mobile);
+}
+#pink {
+    background-color: var(--website);
+}
+#gren-yellow{
+    background-color: var(--sales);
+}
+#lightblue-4 {
+    background-color: var(--editorial);
+}
+.checkmark {
+    color: green;
+    border: 1px solid green;
+    border-radius: 100%;
+}
+.xmark {
+    color: red;
+    border: 1px solid red;
+    border-radius: 100%;
+}
