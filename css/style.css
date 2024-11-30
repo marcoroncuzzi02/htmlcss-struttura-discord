@@ -1,12 +1,11 @@
 :root{
     --body-color: #a2a6a8;
     --first-father: #47ADF1;
-    /* --grey: #93999d; */
-    --child-1: #9C72E4;
-    --chil-2: #64C0A9;
-    --child-3: #F29E33;
-    /* --website: #D863A1;
-    --sales:#B0C926;  */
+    --secon-father: #9C72E4;
+    --third-father: #64C0A9;
+    --first-item: #F29E33;
+    --second-item:#E56A9C;
+    --third-item:#B0C926; 
 
     /* --checkmark:&#10003 */
     /* --xmark:&#x2718 */
@@ -20,4 +19,46 @@ body{
 }
 .first-father{
     background-color: var(--first-father);
+}
+.second-father{
+    background-color: var(--second-father);
+}
+.third-father{
+    background-color: var(--third-father);
+}
+.first-item{
+    background-color: var(--first-item);
+}
+.second-item{
+    background-color: var(--second-item);
+}
+.third-item{
+    background-color: var(--third-item);
+}
+header{
+    height: 200px;
+    flex-direction: column;
+    padding: 10px;
+}
+header .first-item .first-position{
+    flex-basis: 30%;
+    padding: 10px;
+}
+header .first-item .secon-position{
+    flex-basis: 70%;
+    padding: 10px;
+}
+header .first-item .second-father .first-position{
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5px;
+}
+header .second-item .third-father{
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5px;
+}
+header .first-item .second-father .second-position{
+    flex-direction: column;
+    padding: 5px;
 }
