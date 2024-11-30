@@ -1,13 +1,23 @@
 :root{
     --body-color: #a2a6a8;
-    --editorial: #47ADF1;
-    --grey: #93999d;
-    --q1-goals: #9C72E4;
-    --recruiting: #64C0A9;
-    --mobile: #F29E33;
-    --website: #D863A1;
-    --sales:#B0C926; 
+    --first-father: #47ADF1;
+    /* --grey: #93999d; */
+    --child-1: #9C72E4;
+    --chil-2: #64C0A9;
+    --child-3: #F29E33;
+    /* --website: #D863A1;
+    --sales:#B0C926;  */
 
     /* --checkmark:&#10003 */
     /* --xmark:&#x2718 */
+}
+body{
+    font-family: "Lato", sans-serif;
+    background-color: var(--body-color);
+}
+.container{
+    display: flex;
+}
+.first-father{
+    background-color: var(--first-father);
 }
